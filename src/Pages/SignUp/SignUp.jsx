@@ -21,9 +21,7 @@ const SignUp = () => {
             console.log(user)
         })
         .catch(error => console.log(error))
-
     }
-
     return (
         <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row">
@@ -44,7 +42,7 @@ const SignUp = () => {
                             <label className="label">
                                 <span className="label-text">Name</span>
                             </label>
-                            <input type="email" placeholder="Name" name='name' className="input input-bordered" required />
+                            <input type="text" placeholder="Name" name='name' className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
